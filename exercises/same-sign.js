@@ -10,14 +10,13 @@
 // Your code :
 
 function sameSign( a, b){
-    if ( a == 0) && (b == 0){
+    if (( a == 0) && (b == 0)){
         return(true);
-    } else if (a < 0 && b < 0) || (a > 0 && b > 0){
+    } else if ((a < 0 && b < 0) || (a > 0 && b > 0)){
         return(true);
     } else {
         return(false);
-    } else {}
-    
+    }
 }
 
 //* Begin of tests
