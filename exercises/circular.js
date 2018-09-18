@@ -9,6 +9,8 @@
 
 // Your code :
 
+set circular = {circular = circular}
+
 //* Begin of tests
 const assert = require('assert')
 

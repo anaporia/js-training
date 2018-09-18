@@ -9,6 +9,10 @@
 
 // Your code :
 
+function getLast (mot){
+    return mot[mot.length - 1];
+}
+
 //* Begin of tests
 const assert = require('assert')
 
