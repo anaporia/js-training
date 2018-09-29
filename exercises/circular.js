@@ -9,7 +9,8 @@
 
 // Your code :
 
-set circular = {circular = circular}
+let circular = new Object();
+circular.circular = circular;
 
 //* Begin of tests
 const assert = require('assert')
